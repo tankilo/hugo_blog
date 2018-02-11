@@ -5,7 +5,7 @@ const matter = require("gray-matter");
 const mkdirp = require("mkdirp-promise");
 
 const timezone = "Asia/Shanghai";
-const src = "hexo";
+const src = "./";
 const target = "hugo";
 
 const readdir = promisify(fs.readdir);
