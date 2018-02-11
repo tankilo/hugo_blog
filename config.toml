@@ -1,6 +1,6 @@
 baseURL = "https://margatroid.xyz"
 languageCode = "zh-cn"
-title = "World of Forks"
+title = "Margatroid's Blog"
 metaDataFormat = "yaml"
 
 theme = "canoe"
@@ -24,9 +24,9 @@ publishDir = "docs"
   filename = "sitemap.xml"
 
 [params]
-  author = "Kevin Tan"
-  description = "Tempora mutantur, nos et mutamur in illis ..."
-  copyright = "Copyleft@Kevin Tan"
+  author = "Margatroid"
+  description = "AFO的辣鸡qwq"
+  copyright = "Copyleft@Margatroid"
   # date format convert: http://fuckinggodateformat.com/
   dateFormat = "2006年01月_2日"
   # 用户头像地址, user avatar's url
@@ -36,7 +36,7 @@ publishDir = "docs"
   splash_bg = "/img/bg.jpg"
 
   # 是否使用一言, if using hitokoto(dynamic moto phase in the home banner)
-  hitokoto = true
+  hitokoto = false
 
   
 # comment settings, support 'valine' and 'disqus'.
