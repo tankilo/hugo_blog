@@ -5,7 +5,7 @@ tags:
   - Material Design
 categories:
   - Hexo
-date: 2017-10-08 04:34:37
+date: '2017-10-08T12:34:37+08:00'
 ---
 
 先说结论，这款主题，作为`material design`的主题是相当差劲的

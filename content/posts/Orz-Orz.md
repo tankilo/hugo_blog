@@ -7,7 +7,7 @@ tags:
   - COGS
 categories:
   - OI
-date: 2017-09-27 09:16:36
+date: '2017-09-27T17:16:36+08:00'
 ---
 
 # 题目描述
@@ -118,4 +118,3 @@ int main()
         cout << ans << endl;
 }
 ```
-

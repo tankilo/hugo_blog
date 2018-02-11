@@ -7,7 +7,7 @@ tags:
   - 模拟
 categories:
   - OI
-date: 2017-07-31 20:45:01
+date: '2017-08-01T04:45:01+08:00'
 ---
 
 > 比赛地址：[Codeforces](http://codeforces.com/contest/835)

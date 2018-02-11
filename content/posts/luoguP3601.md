@@ -6,7 +6,7 @@ tags:
   - 数学
 categories:
   - OI
-date: 2017-09-15 05:00:48
+date: '2017-09-15T13:00:48+08:00'
 ---
 
 # 题目描述
@@ -95,4 +95,3 @@ int main()
     cout << (sum - phi_sum) % mod << endl;
 }
 ```
-

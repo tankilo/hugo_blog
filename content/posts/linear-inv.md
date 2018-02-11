@@ -6,7 +6,7 @@ tags:
   - OI
 categories:
   - OI
-date: 2017-10-04 23:01:58
+date: '2017-10-05T07:01:58+08:00'
 ---
 
 # 作用
@@ -58,6 +58,3 @@ void get_inv()
         inv[i] = (1ll * inv[p % i] * (p - p / i) % p) % p;
 }
 ```
-
-
-

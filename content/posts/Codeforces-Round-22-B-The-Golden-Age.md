@@ -1,12 +1,13 @@
 ---
 layout: educational
-title: 'Codeforces Round 22 B. The Golden Age'
-date: 2017-06-06 19:46:34
+title: Codeforces Round 22 B. The Golden Age
+date: '2017-06-07T03:46:34+08:00'
 tags:
-- OI
-- 数学
-- Codeforces
-categories: "OI"
+  - OI
+  - 数学
+  - Codeforces
+categories:
+  - OI
 ---
 
 ## 题目描述

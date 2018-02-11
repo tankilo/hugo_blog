@@ -7,7 +7,7 @@ tags:
   - OI
 categories:
   - OI
-date: 2017-08-10 23:14:21
+date: '2017-08-11T07:14:21+08:00'
 ---
 
 # 原题描述
@@ -145,4 +145,3 @@ int main()
     cout << ans << endl;
 }
 ```
-

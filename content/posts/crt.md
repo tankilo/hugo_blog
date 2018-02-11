@@ -6,7 +6,7 @@ tags:
   - 中国剩余定理
 categories:
   - OI
-date: 2017-09-11 08:19:01
+date: '2017-09-11T16:19:01+08:00'
 ---
 
 # 定理
@@ -96,4 +96,3 @@ T crt(T *m, T *a, T n)
 
 - 维基百科-中国剩余定理：[网页链接](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%89%A9%E4%BD%99%E5%AE%9A%E7%90%86)
 - xehoth-数论补档计划：[网页链接](https://blog.xehoth.cc/DurationPlan-NumberTheory/#中国剩余定理)
-

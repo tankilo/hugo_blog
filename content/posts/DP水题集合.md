@@ -6,7 +6,7 @@ tags:
   - COGS
 categories:
   - OI
-date: 2017-06-16 21:37:47
+date: '2017-06-17T05:37:47+08:00'
 ---
 
 
@@ -167,6 +167,3 @@ int main()
     cout << *max_element(f + 1, f + 1 + m) << endl;
 }
 ```
-
-
-

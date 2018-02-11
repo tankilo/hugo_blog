@@ -8,7 +8,7 @@ tags:
   - 差分
 categories:
   - OI
-date: 2017-07-30 20:57:49
+date: '2017-07-31T04:57:49+08:00'
 ---
 
 >  比赛地址：[Codeforces](http://codeforces.com/contest/834)

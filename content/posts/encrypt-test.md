@@ -4,10 +4,10 @@ tags:
   - Hexo
 categories:
   - Hexo
-date: 2017-08-06 00:55:17
+date: '2017-08-06T08:55:17+08:00'
 password: Margatroid
-abstract: Welcome to my blog, enter password to read.
-message: Welcome to my blog, enter password to read.
+abstract: 'Welcome to my blog, enter password to read.'
+message: 'Welcome to my blog, enter password to read.'
 ---
 
 好像真的能用呢

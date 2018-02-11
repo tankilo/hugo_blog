@@ -6,7 +6,7 @@ tags:
   - 数论
 categories:
   - OI
-date: 2017-08-25 10:04:06
+date: '2017-08-25T18:04:06+08:00'
 ---
 
 # GCD
@@ -117,4 +117,3 @@ ll get_inv(ll a, ll m)
 # 参考链接
 
 - 维基百科-模逆元：[网页链接](https://zh.wikipedia.org/wiki/%E6%A8%A1%E5%8F%8D%E5%85%83%E7%B4%A0)
-

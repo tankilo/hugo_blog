@@ -5,7 +5,7 @@ tags:
   - AFO
 categories:
   - OI
-date: 2017-11-19 02:46:45
+date: '2017-11-19T10:46:45+08:00'
 ---
 
 这里是Margatroid的OI历程

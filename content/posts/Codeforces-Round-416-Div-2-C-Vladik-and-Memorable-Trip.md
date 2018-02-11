@@ -6,7 +6,7 @@ tags:
   - Codeforces
 categories:
   - OI
-date: 2017-06-03 16:39:59
+date: '2017-06-04T00:39:59+08:00'
 ---
 
 ## 题目描述

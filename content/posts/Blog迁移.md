@@ -1,9 +1,10 @@
 ---
 title: Blog迁移
-date: 2017-05-28 22:15:01
-tags: 
-- Hexo
-categories: "Hexo"
+date: '2017-05-29T06:15:01+08:00'
+tags:
+  - Hexo
+categories:
+  - Hexo
 ---
 如题，Blog迁移至Github Pages，因为我懒233
 测试一下公式：
