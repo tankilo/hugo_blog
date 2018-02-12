@@ -1,1 +1,0 @@
-node ./node_modules/.bin/sw-precache --root=./docs

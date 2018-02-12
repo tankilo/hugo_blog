@@ -148,7 +148,20 @@ gulp.task('generate-service-worker', function(callback) {
 
   swPrecache.write(`${rootDir}/service-worker.js`, {
     staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff}'],
-    stripPrefix: rootDir
+    stripPrefix: rootDir,
+    runtimeCaching: [{
+      urlPattern: "/*",
+      handler: 'cacheFirst',
+      options: { origin: "cdn.bootcss.com" }
+    }, {
+      urlPattern: "/*",
+      handler: 'cacheFirst',
+      options: { origin: "i.loli.net" }
+    }, {
+      urlPattern: "/*",
+      handler: 'cacheFirst',
+      options: { origin: "fonts.cat.net" }
+    }]
   }, callback);
 });
 // prodDir => prodDir
