@@ -84,33 +84,79 @@ publishDir = "docs"
 
 #  友情链接 Your Friend's blog links
 [[menu.friend]]
-  name = "Frantic1048"
-  url = "https://frantic1048.logdown.com/"
+  name = "kZime"
+  url = "http://kZime.xyz"
 
 [[menu.friend]]
   name = "HclMaster"
   url = "https://hclmaster.github.io/"
 
 [[menu.friend]]
-  name = "WANG Hsü-Tung"
-  url = "https://whst.github.io/"
+  name = "JustWB"
+  url = "http://justwb.pro"
 
+[[menu.friend]]
+  name = "Ostmbh | mk学长"
+  url = "http://blog.csdn.net/scaprt"
 
+[[menu.friend]]
+  name = "Von-Hyou | qwq教主"
+  url = "http://von-hyou.pub"
+
+[[menu.friend]]
+  name = "KS"
+  url = "http://ksmeow.moe"
+
+[[menu.friend]]
+  name = "Dedsecr"
+  url = "https://dedsecr.github.io/"
+
+[[menu.friend]]
+  name = "封癫qwq"
+  url = "http://www.cnblogs.com/cellular-automaton/"
+  
+[[menu.friend]]
+  name = "_rqy dalao"
+  url = "http://www.cnblogs.com/y-clever"
+    
+[[menu.friend]]
+  name = "Shingen"
+  url = "http://www.cnblogs.com/shingen/"
+    
+[[menu.friend]]
+  name = "Hash_Table"
+  url = "http://blog.csdn.net/Flere825"
+    
+[[menu.friend]]
+  name = "applese"
+  url = "http://blog.csdn.net/effervescence"
+    
+[[menu.friend]]
+  name = "LittleRewriter"
+  url = "http://blog.csdn.net/lirewriter"
+    
+[[menu.friend]]
+  name = "Turkey"
+  url = "http://www.cnblogs.com/hyghb/"
+
+[[menu.friend]]
+  name = "maoxiangui"
+  url = "http://www.maoxiangui.com"
 # 社交账号 Social Network
 [[menu.social]]
   pre = "<svg class='svg-icons svg-icons-github'><use xlink:href='#svg-icons-github'></use></svg>"
   name = "Github"
-  url = "https://github.com/stkevintan"
+  url = "https://github.com/enter-tainer"
 
-[[menu.social]]
-  pre = "<svg class='svg-icons svg-icons-twitter'><use xlink:href='#svg-icons-twitter'></use></svg>"
-  name = "Twitter"
-  url = "https://twitter.com/kevinsfork"
+# [[menu.social]]
+#   pre = "<svg class='svg-icons svg-icons-twitter'><use xlink:href='#svg-icons-twitter'></use></svg>"
+#   name = "Twitter"
+#   url = "https://twitter.com/kevinsfork"
 
-[[menu.social]]
-  pre = "<svg class='svg-icons svg-icons-sina-weibo'><use xlink:href='#svg-icons-sina-weibo'></use></svg>"
-  name = "Weibo"
-  url = "http://weibo.com/kevinclasky"
+# [[menu.social]]
+#   pre = "<svg class='svg-icons svg-icons-sina-weibo'><use xlink:href='#svg-icons-sina-weibo'></use></svg>"
+#   name = "Weibo"
+#   url = "http://weibo.com/kevinclasky"
 
 
 [blackfriday]
