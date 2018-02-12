@@ -9,7 +9,9 @@
 
   /* * * DON'T EDIT BELOW THIS LINE * * */
   (function () {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
@@ -35,4 +37,21 @@
     path: window.location.pathname,
     avatar: '{{ .valine.avatar }}'
   }
-</script> {{ end }} {{ end }}
+</script> {{ end }} {{ if eq .type "gitment"}}
+<section id="comments">
+  <script src="/js/gitment.min.js"></script>
+  <link rel="stylesheet" href="/css/gitment.css">
+  <script>
+    const gitment = new Gitment({
+      owner: 'enter-tainer',
+      repo: 'BlogSource',
+      oauth: {
+        client_id: 'daaa0fc7215043830e7b',
+        client_secret: 'e6e2e7bcf1f61481cfeaa41b2a31361e65fe6940',
+      },
+    })
+
+    gitment.render('comments')
+  </script>
+</section>
+{{ end }} {{ end }}
