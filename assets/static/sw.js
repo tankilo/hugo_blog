@@ -1,4 +1,4 @@
-const CACHE_VERSION = 1;
+const CACHE_VERSION = 2;
 
 const BASE_CACHE_FILES = [
     '/js/index.js',
@@ -15,19 +15,35 @@ const BASE_CACHE_FILES = [
     '/svg/icon.svg'
 ];
 
-const OFFLINE_CACHE_FILES = [
-    '/style.css',
-    '/script.js',
-    '/offline/index.html',
+const OFFLINE_CACHE_FILES =  [
+    '/js/index.js',
+    '/js/canvas.js',
+    '/js/polyfill.js',
+    '/js/av-min.js',
+    '/css/index.css',
+    '/archive/index.html',
+    '/about/index.html',
+    '/index.html',
+    '/favicon.ico',
+    '/fonts/roboto/Roboto-Regular.woff',
+    '/fonts/roboto/Roboto-Regular.woff2',
+    '/svg/icon.svg'
 ];
 
-const NOT_FOUND_CACHE_FILES = [
-    '/style.css',
-    '/script.js',
+const NOT_FOUND_CACHE_FILES =  [
+    '/js/index.js',
+    '/js/canvas.js',
+    '/js/polyfill.js',
+    '/js/av-min.js',
+    '/css/index.css',
     '/404.html',
+    '/favicon.ico',
+    '/fonts/roboto/Roboto-Regular.woff',
+    '/fonts/roboto/Roboto-Regular.woff2',
+    '/svg/icon.svg'
 ];
 
-const OFFLINE_PAGE = '/offline/index.html';
+const OFFLINE_PAGE = '/index.html';
 const NOT_FOUND_PAGE = '/404.html';
 
 const CACHE_VERSIONS = {
