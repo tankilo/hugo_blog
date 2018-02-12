@@ -147,7 +147,7 @@ gulp.task('generate-service-worker', function(callback) {
   var rootDir = 'docs';
 
   swPrecache.write(`${rootDir}/service-worker.js`, {
-    staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff}'],
+    staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,json,woff2}'],
     stripPrefix: rootDir,
     runtimeCaching: [{
       urlPattern: "/*",
@@ -161,6 +161,10 @@ gulp.task('generate-service-worker', function(callback) {
       urlPattern: "/*",
       handler: 'cacheFirst',
       options: { origin: "fonts.cat.net" }
+    }, {
+      urlPattern: "/*",
+      handler: 'cacheFirst',
+      options: { origin: "gstatic.cat.net" }
     }]
   }, callback);
 });
