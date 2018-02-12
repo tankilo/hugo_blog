@@ -6,6 +6,7 @@ tags:
 categories:
   - Hugo
 date: '2018-02-12T20:34:34+08:00'
+published: true
 ---
 迁移到了hugo qwq
 
@@ -48,3 +49,5 @@ date: '2018-02-12T20:34:34+08:00'
 然后我就照猫画虎地在模板里瞎改了一下，让gitment跑起来了。
 
 由于URL发生了改变，之前的评论都无法显示了，不过好在它们并没有丢失，而是在这个repo的[issue](https://github.com/Enter-tainer/BlogSource/issues)里
+
+之前的hexo blog依然被保留，只不过域名变成了[http://hexo.margatroid.xyz/](http://hexo.margatroid.xyz/)
