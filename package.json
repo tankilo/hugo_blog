@@ -51,7 +51,6 @@
     "mkdirp": "^0.5.1",
     "moment-timezone": "^0.5.14",
     "node-sass": "^4.7.2",
-    "sw-precache": "^5.2.1",
     "whatwg-fetch": "^2.0.3"
   }
 }
