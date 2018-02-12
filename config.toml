@@ -30,7 +30,7 @@ publishDir = "docs"
   # date format convert: http://fuckinggodateformat.com/
   dateFormat = "2006年01月_2日"
   # 用户头像地址, user avatar's url
-  logo = "/img/avatar.png"
+  logo = "https://i.loli.net/2017/09/20/59c235464bcb9.png"
 
   # 首页横幅的背景链接, home banner's background url.
   splash_bg = "/img/bg.jpg"
