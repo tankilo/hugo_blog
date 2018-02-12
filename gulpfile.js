@@ -136,7 +136,7 @@ gulp.task("rev", () => {
   const revExts = "png,svg,jpg,css,js";
   return gulp
     .src(`${devDir}/**/*.{${revExts}}`)
-    .pipe(rev())
+    // .pipe(rev())
     .pipe(gulp.dest(prodDir))
     .pipe(rev.manifest("rev-manifest.json"))
     .pipe(gulp.dest(devDir));
@@ -179,7 +179,7 @@ gulp.task("purifycss", () => {
     .pipe(purifycss([`${base}/**/*.html`, `${base}/**/*.js`]))
     .pipe(
       postcss([
-        require("autoprefixer")({ browsers: c.browserslist }),
+        // require("autoprefixer")({ browsers: c.browserslist }),
         require("cssnano")()
       ])
     )

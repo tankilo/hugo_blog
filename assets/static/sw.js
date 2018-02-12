@@ -1,11 +1,18 @@
 const CACHE_VERSION = 1;
 
 const BASE_CACHE_FILES = [
-    '/js/*.js',
-    '/css/*.css',
-    '/*.json',
-    '/*.html',
+    '/js/index.js',
+    '/js/canvas.js',
+    '/js/polyfill.js',
+    '/js/av-min.js',
+    '/css/index.css',
+    '/archive/index.html',
+    '/about/index.html',
+    '/index.html',
     '/favicon.ico',
+    '/fonts/roboto/Roboto-Regular.woff',
+    '/fonts/roboto/Roboto-Regular.woff2',
+    '/svg/icon.svg'
 ];
 
 const OFFLINE_CACHE_FILES = [
