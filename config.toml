@@ -1,6 +1,6 @@
 baseURL = "https://margatroid.xyz"
 languageCode = "zh-cn"
-title = "Margatroid's Blog"
+title = "Lunatic World"
 metaDataFormat = "yaml"
 
 theme = "canoe"
