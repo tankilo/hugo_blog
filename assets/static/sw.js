@@ -1,4 +1,4 @@
-const CACHE_VERSION = 3;
+const CACHE_VERSION = 4;
 
 const BASE_CACHE_FILES = [
   '/js/index.js', '/js/canvas.js', '/js/polyfill.js', '/js/av-min.js',
