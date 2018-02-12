@@ -32,7 +32,7 @@
     "rollup-plugin-typescript": "^0.8.1",
     "rollup-plugin-uglify": "^2.0.1",
     "run-sequence": "^2.1.0",
-    "sw-precache": "^5.2.0",
+    "sw-precache": "^5.2.1",
     "toml": "^2.3.3",
     "typescript": "^2.6.2"
   },
@@ -51,6 +51,7 @@
     "mkdirp": "^0.5.1",
     "moment-timezone": "^0.5.14",
     "node-sass": "^4.7.2",
+    "sw-precache": "^5.2.1",
     "whatwg-fetch": "^2.0.3"
   }
 }
