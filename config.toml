@@ -25,7 +25,7 @@ publishDir = "docs"
 
 [params]
   author = "Margatroid"
-  description = "AFO的辣鸡qwq"
+  description = "帝乡不可期"
   copyright = "Copyright@Margatroid"
   # date format convert: http://fuckinggodateformat.com/
   dateFormat = "2006年01月_2日"
