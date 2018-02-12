@@ -142,6 +142,15 @@ gulp.task("rev", () => {
     .pipe(gulp.dest(devDir));
 });
 
+gulp.task('generate-service-worker', function(callback) {
+  var swPrecache = require('sw-precache');
+  var rootDir = 'docs';
+
+  swPrecache.write(`${rootDir}/service-worker.js`, {
+    staticFileGlobs: [rootDir + '/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff}'],
+    stripPrefix: rootDir
+  }, callback);
+});
 // prodDir => prodDir
 gulp.task("ref", () => {
   const refExts = "html,css,js";
@@ -192,7 +201,7 @@ gulp.task("build:dev", cb => {
 
 gulp.task("build", ["clean"], cb => {
   env = "prod";
-  run("build:dev", "purifycss", ["rev", "htmlmin"], "ref", cb);
+  run("build:dev", "purifycss", ["rev", "htmlmin"], "ref", "generate-service-worker", cb);
 });
 
 gulp.task("serve", ["build:dev"], () => {
