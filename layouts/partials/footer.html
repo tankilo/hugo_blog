@@ -19,8 +19,7 @@
             {{ with .Site.Menus.social }} {{ range . }}
             <li>
               <a href="{{.URL}}" target="_blank" title="{{.Name}}">
-                {{ .Pre | default ("
-                <i class='material-icons'>language</i>" | safeHTML ) }}
+                {{ .Pre | default ("<i class='material-icons'>language</i>" | safeHTML ) }}
               </a>
             </li>
             {{ end }} {{ end }}
