@@ -26,7 +26,7 @@ publishDir = "docs"
 [params]
   author = "Margatroid"
   description = "AFO的辣鸡qwq"
-  copyright = "Copyleft@Margatroid"
+  copyright = "Copyright@Margatroid"
   # date format convert: http://fuckinggodateformat.com/
   dateFormat = "2006年01月_2日"
   # 用户头像地址, user avatar's url
