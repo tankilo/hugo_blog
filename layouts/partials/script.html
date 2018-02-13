@@ -91,6 +91,7 @@
             switch (installingWorker.state) {
               case 'installed':
                 if (navigator.serviceWorker.controller) {
+                  console.log("sw-updated")
                   let themeColor = document.querySelector('meta[name=theme-color]');
                   let dom = document.createElement('div');
                   themeColor && (themeColor.content = '#000');
