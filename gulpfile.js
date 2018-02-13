@@ -85,15 +85,15 @@ gulp.task("image", () => {
   return gulp
     .src(`${srcDir}/image/**/*.{png,jpg}`)
     .pipe(changed(destDir))
-    // .pipe(
-    //   $if(
-    //     env !== "dev",
-    //     imagemin({
-    //       progressive: true,
-    //       use: [pngquant({ quality: 90 })]
-    //     })
-    //   )
-    // )
+    .pipe(
+      $if(
+        env !== "dev",
+        imagemin({
+          progressive: true,
+          use: [pngquant({ quality: 90 })]
+        })
+      )
+    )
     .pipe(gulp.dest(destDir))
     .pipe(bs.stream({ match: "**/*.{png,jpg}" }));
 });
@@ -103,15 +103,15 @@ gulp.task("pimg", () => {
   return gulp
     .src(`pimg/**/*.{png,jpg}`)
     .pipe(changed(destDir))
-    // .pipe(
-    //   $if(
-    //     env !== "dev",
-    //     imagemin({
-    //       progressive: true,
-    //       use: [pngquant({ quality: 90 })]
-    //     })
-    //   )
-    // )
+    .pipe(
+      $if(
+        env !== "dev",
+        imagemin({
+          progressive: true,
+          use: [pngquant({ quality: 90 })]
+        })
+      )
+    )
     .pipe(gulp.dest(destDir))
     .pipe(bs.stream({ match: "**/*.{png,jpg}" }));
 });
@@ -136,7 +136,7 @@ gulp.task("rev", () => {
   const revExts = "png,svg,jpg,css,js";
   return gulp
     .src(`${devDir}/**/*.{${revExts}}`)
-    // .pipe(rev())
+    .pipe(rev())
     .pipe(gulp.dest(prodDir))
     .pipe(rev.manifest("rev-manifest.json"))
     .pipe(gulp.dest(devDir));
@@ -205,7 +205,7 @@ gulp.task("purifycss", () => {
     .pipe(purifycss([`${base}/**/*.html`, `${base}/**/*.js`]))
     .pipe(
       postcss([
-        // require("autoprefixer")({ browsers: c.browserslist }),
+        require("autoprefixer")({ browsers: c.browserslist }),
         require("cssnano")()
       ])
     )
