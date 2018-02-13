@@ -96,6 +96,10 @@ publishDir = "docs"
   url = "http://blog.csdn.net/scaprt"
 
 [[menu.friend]]
+  name = "kririae"
+  url = "https://yuyuko.cc"
+
+[[menu.friend]]
   name = "Von-Hyou | qwq教主"
   url = "http://von-hyou.pub"
 
