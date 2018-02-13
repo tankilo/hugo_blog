@@ -88,10 +88,6 @@ publishDir = "docs"
   url = "http://kZime.xyz"
 
 [[menu.friend]]
-  name = "HclMaster"
-  url = "https://hclmaster.github.io/"
-
-[[menu.friend]]
   name = "JustWB"
   url = "http://justwb.pro"
 
