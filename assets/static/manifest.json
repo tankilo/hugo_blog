@@ -1,13 +1,19 @@
 {
     "short_name": "Lunatic World",
     "name": "Lunatic World - Margatroid's Blog",
-    "icons": [
-      {
-        "src": "favicon.ico",
-        "type": "image/ico",
-        "sizes": "48x48"
-      }
-    ],
+    "icons": [{
+      "src": "/icon-128px.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    }, {
+      "src": "/icon-144px.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }, {
+      "src": "/icon-192px.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }],
     "start_url": "index.html",
     "theme_color": "#3f51b5",
     "background_color": "#3f51b5",
