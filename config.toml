@@ -42,11 +42,11 @@ publishDir = "docs"
 # comment settings, support 'valine' and 'disqus'.
 # more about 'valine', ref: http://valine.js.org/
 [params.comment]
-  type = "gitment"
+  type = "valine"
 
 [params.comment.valine]
-  id = "drenIDLMO3yTwiuCl7Hva9nq-gzGzoHsz"
-  key = "rfotKaw6cevwHhOR8FvhwPAp"
+  id = "NAu3PVNY7rahbVOFB9rdX1Pc-gzGzoHsz"
+  key = "HYsNt6ggO6z3PrfTH9QSvBg5"
   placeholder = "写点什么吧..."
   avatar = "retro"
 
