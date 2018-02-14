@@ -13,6 +13,10 @@
       "src": "/icon-192px.png",
       "type": "image/png",
       "sizes": "192x192"
+    }, {
+      "src": "https://i.loli.net/2018/02/14/5a83912d2c2ca.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }],
     "start_url": "index.html",
     "theme_color": "#3f51b5",
