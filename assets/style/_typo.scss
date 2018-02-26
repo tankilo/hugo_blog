@@ -69,6 +69,7 @@
   }
   // code blocks
   & > pre code:not(.hljs) {
+    font-family: "Fira Code",monospace;
     overflow-x: auto;
     display: block;
     background: #2b303b;
@@ -174,6 +175,7 @@
   }
 
   pre code {
+    font-family: "Fira Code",monospace;
     padding: 0.5em 24px;
   }
 
