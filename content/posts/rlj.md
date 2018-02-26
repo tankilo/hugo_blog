@@ -2,11 +2,12 @@
 title: Rlj is Great!
 tags:
   - NOIP
-  - 模板
-  - 计划
+  - linux
+  - 评测机
 categories:
   - OI
 date: '2018-02-12T21:00:03+08:00'
+published: true
 ---
 安利一发\_rqy dalao的local judger
 
