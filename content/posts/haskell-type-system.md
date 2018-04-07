@@ -51,7 +51,7 @@ data ScienceSubject = Math String Int | Physics String Int
 ``` haskell
 giveAdvice :: ScienceSubject -> String
 giveAdvice (Math _ 150) = "You are a god, aren't you?"
-giveAdvice (_ _ _) = "Practice makes prefect!"
+giveAdvice _ = "Practice makes prefect!"
 ```
 
 值得一提的是这个函数的类型签名：为什么不是`Math -> String`呢？
