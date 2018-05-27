@@ -88,6 +88,14 @@ publishDir = "docs"
   url = "http://kZime.xyz"
 
 [[menu.friend]]
+  name = "kiririae"
+  url = "https://yuyuko.cc"
+
+[[menu.friend]]
+  name = "LittleRewriter"
+  url = "https://lire.yuyuko.cc/"
+
+[[menu.friend]]
   name = "JustWB"
   url = "http://justwb.pro"
 
