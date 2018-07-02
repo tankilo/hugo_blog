@@ -10,6 +10,6 @@ Margatroid是蛤省实验中学的一名AFOIer。曾经学过OI
 ## 联系方式
 各大OJ的用户名为Margatroid
 
-- Github [Enter-tainer](https://github.com/enter-tainer)
+- GitHub [Enter-tainer](https://github.com/enter-tainer)
 - QQ: 351652632
 - 网易云音乐： <a href="http://music.163.com/#/user/home?id=98419837">-Margatroid</a>
