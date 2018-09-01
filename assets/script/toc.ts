@@ -59,7 +59,7 @@ const indicatorFn = U.memory(() => {
 });
 
 function setactive(el) {
-  console.log(el);
+  // console.log(el);
   if (activeItem === el) return;
   if (activeItem) {
     activeItem.classList.remove("active");
