@@ -60,7 +60,7 @@ const lunrLoader = (function() {
         return { pageMap, index };
       })
       .catch(e => {
-        console && console.log("Error while getting lunr index file: ", e);
+        // console && console.log("Error while getting lunr index file: ", e);
       });
   });
 })();

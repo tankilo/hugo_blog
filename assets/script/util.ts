@@ -1,7 +1,7 @@
 const parser = new DOMParser();
 const util = {
   log(...args) {
-    console && console.log(...args);
+    // console && console.log(...args);
   },
   fork(type: string, params, cb: Function) {
     const worker = new Worker("/js/worker.js");

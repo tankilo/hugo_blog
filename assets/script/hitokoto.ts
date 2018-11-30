@@ -26,7 +26,7 @@ export default function() {
   U.fetch(url)
     .then(res => res.json())
     .then(data => {
-      console && console.log("hitokoto detail : ", data);
+      // console && console.log("hitokoto detail : ", data);
       fadeOut(() => {
         desc.innerHTML = `${data.hitokoto} --- <cite>${data.from}</cite>`;
         fadeIn();
