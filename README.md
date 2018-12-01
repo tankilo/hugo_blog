@@ -1,5 +1,7 @@
 # hugo-YAMT-theme
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Enter-tainer/hugo_blog.svg)](https://greenkeeper.io/)
+
 Yet Another Material Theme for hugo. [demo](https://keyin.me).
 
 ![](https://raw.githubusercontent.com/stkevintan/canoe/master/images/screenshot.png)
