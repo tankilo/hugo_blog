@@ -150,6 +150,9 @@ publishDir = "docs"
 [[menu.friend]]
   name = "maoxiangui"
   url = "http://www.maoxiangui.com"
+[[menu.friend]]
+  name = "LittleRewriter"
+  url = "https://lire.yuyuko.cc/"
 # 社交账号 Social Network
 [[menu.social]]
   pre = "<svg class='svg-icons svg-icons-github'><use xlink:href='#svg-icons-github'></use></svg>"
@@ -168,4 +171,4 @@ publishDir = "docs"
 
 
 [blackfriday]
-  extensions = ["laxHtmlBlocks","noEmptyLineBeforeBlock","hardLineBreak"]
+  extensions = ["laxHtmlBlocks","noEmptyLineBeforeBlock"]
