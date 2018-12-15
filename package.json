@@ -50,6 +50,7 @@
     "lunr": "^2.1.5",
     "mkdirp": "^0.5.1",
     "moment-timezone": "^0.5.14",
+    "quicklink": "^1.0.0",
     "whatwg-fetch": "^2.0.3"
   }
 }

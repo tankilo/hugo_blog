@@ -38,7 +38,7 @@ publishDir = "docs"
   # 是否使用一言, if using hitokoto(dynamic moto phase in the home banner)
   hitokoto = false
 
-  
+
 # comment settings, support 'valine' and 'disqus'.
 # more about 'valine', ref: http://valine.js.org/
 [params.comment]
@@ -58,14 +58,14 @@ publishDir = "docs"
 [[menu.main]]
     name = "Home"
     # associated with displaying order.
-    weight = 1 
+    weight = 1
     url = "/"
 
 [[menu.main]]
     name = "Archive"
     weight = 2
     url = "/archive/"
-    
+
 [[menu.main]]
     name = "About"
     weight = 6
@@ -83,9 +83,9 @@ publishDir = "docs"
   identifier="categories"
 
 #  友情链接 Your Friend's blog links
-[[menu.friend]]
-  name = "kZime"
-  url = "http://kZime.xyz"
+# [[menu.friend]]
+#   name = "kZime"
+#   url = "http://kZime.xyz"
 
 [[menu.friend]]
   name = "kiririae"
@@ -122,27 +122,27 @@ publishDir = "docs"
 [[menu.friend]]
   name = "封癫qwq"
   url = "http://www.cnblogs.com/cellular-automaton/"
-  
+
 [[menu.friend]]
   name = "_rqy dalao"
   url = "http://www.cnblogs.com/y-clever"
-    
+
 [[menu.friend]]
   name = "Shingen"
   url = "http://www.cnblogs.com/shingen/"
-    
+
 [[menu.friend]]
   name = "Hash_Table"
   url = "http://blog.csdn.net/Flere825"
-    
+
 [[menu.friend]]
   name = "applese"
   url = "http://blog.csdn.net/effervescence"
-    
+
 [[menu.friend]]
   name = "LittleRewriter"
   url = "http://blog.csdn.net/lirewriter"
-    
+
 [[menu.friend]]
   name = "Turkey"
   url = "http://www.cnblogs.com/hyghb/"

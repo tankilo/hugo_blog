@@ -7,6 +7,7 @@ import toc from "./toc";
 import sidebar from "./sidebar";
 import tab from "./tab";
 import hitokoto from "./hitokoto";
+import quicklink from 'quicklink/dist/quicklink.mjs';
 
 function loadSvg() {
   const url = baseURL + "/svg/icon.svg";
@@ -84,5 +85,6 @@ U.domReady(() => {
   sidebar();
   search();
   taxonomy();
+  quicklink({ priority: true, origins: true});
   hitokoto();
 });
