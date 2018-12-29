@@ -85,6 +85,6 @@ U.domReady(() => {
   sidebar();
   search();
   taxonomy();
-  quicklink({ priority: true, origins: true});
+  quicklink();
   hitokoto();
 });
